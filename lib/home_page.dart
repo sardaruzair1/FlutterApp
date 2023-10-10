@@ -7,31 +7,255 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return  Scaffold(
       body: Container(
-        color: Colors.purple,
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Text(
-              "Aptech"
-            ),
-            Row(
-              mainAxisSize: MainAxisSize.min,
+          color: Colors.purple,
+          child:  SingleChildScrollView(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Container(
-                  width: 100,
-                  height: 100,
-                  color: Colors.red,
+               
+                SingleChildScrollView( scrollDirection : Axis.horizontal,
+                  child: Row(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Container(
+                        margin: EdgeInsets.all(20),
+                        // padding: EdgeInsets.only(top: 30),
+                        child: Text("Aptech Farig Road"),
+                        width: 200,
+                        height: 200,
+                        decoration: BoxDecoration(
+                          color: Colors.red,
+                          // border: Border.all(
+                          //   color: Colors.black,
+                          //   width: 4,
+                          // ),
+                          // border: Border(bottom: BorderSide(width: 4, color: Colors.black)),
+                          // borderRadius: BorderRadiusDirectional.circular(20),
+                          // shape: BoxShape.circle,
+                          // borderRadius: BorderRadius.only(topRight: Radius.circular(15)),
+                          
+                        ),
+                      ),
+                      Container(
+                        margin: EdgeInsets.all(20),
+                        width: 200,
+                        height: 200,
+                        color: Colors.blue,
+                      ),
+                      Container(
+                        margin: EdgeInsets.all(20),
+                        width: 200,
+                        height: 200,
+                        color: Colors.green,
+                      ),
+                      Container(
+                        margin: EdgeInsets.all(20),
+                        width: 200,
+                        height: 200,
+                        color: Colors.blue,
+                      ),
+                      Container(
+                        margin: EdgeInsets.all(20),
+                        width: 200,
+                        height: 200,
+                        color: Colors.orange,
+                      ),
+                      Container(
+                        margin: EdgeInsets.all(20),
+                        width: 200,
+                        height: 200,
+                        color: Colors.blue,
+                      ),
+                      Container(
+                        margin: EdgeInsets.all(20),
+                        width: 200,
+                        height: 200,
+                        color: Colors.red,
+                      ),
+                    
+                    ],
+                  ),
                 ),
-                Container(
-                  width: 100,
-                  height: 100,
-                  color: Colors.blue,
+                SingleChildScrollView( scrollDirection : Axis.horizontal,
+                  child: Row(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Container(
+                        // margin: EdgeInsets.all(20),
+                        // padding: EdgeInsets.only(top: 30),
+                        child: Text("Aptech Farig Road"),
+                        width: 200,
+                        height: 200,
+                        decoration: BoxDecoration(
+                          color: Colors.red,
+                          // border: Border.all(
+                          //   color: Colors.black,
+                          //   width: 4,
+                          // ),
+                          // border: Border(bottom: BorderSide(width: 4, color: Colors.black)),
+                          // borderRadius: BorderRadiusDirectional.circular(20),
+                          // shape: BoxShape.circle,
+                          // borderRadius: BorderRadius.only(topRight: Radius.circular(15)),
+                          
+                        ),
+                      ),
+                      Container(
+                        width: 200,
+                        height: 200,
+                        color: Colors.blue,
+                      ),
+                      Container(
+                        width: 200,
+                        height: 200,
+                        color: Colors.green,
+                      ),
+                      Container(
+                        width: 200,
+                        height: 200,
+                        color: Colors.blue,
+                      ),
+                      Container(
+                        width: 200,
+                        height: 200,
+                        color: Colors.orange,
+                      ),
+                      Container(
+                        width: 200,
+                        height: 200,
+                        color: Colors.blue,
+                      ),
+                      Container(
+                        width: 200,
+                        height: 200,
+                        color: Colors.red,
+                      ),
+                    
+                    ],
+                  ),
                 ),
+                SingleChildScrollView( scrollDirection : Axis.horizontal,
+                  child: Row(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Container(
+                        // margin: EdgeInsets.all(20),
+                        // padding: EdgeInsets.only(top: 30),
+                        child: Text("Aptech Farig Road"),
+                        width: 200,
+                        height: 200,
+                        decoration: BoxDecoration(
+                          color: Colors.red,
+                          // border: Border.all(
+                          //   color: Colors.black,
+                          //   width: 4,
+                          // ),
+                          // border: Border(bottom: BorderSide(width: 4, color: Colors.black)),
+                          // borderRadius: BorderRadiusDirectional.circular(20),
+                          // shape: BoxShape.circle,
+                          // borderRadius: BorderRadius.only(topRight: Radius.circular(15)),
+                          
+                        ),
+                      ),
+                      Container(
+                        width: 200,
+                        height: 200,
+                        color: Colors.blue,
+                      ),
+                      Container(
+                        width: 200,
+                        height: 200,
+                        color: Colors.green,
+                      ),
+                      Container(
+                        width: 200,
+                        height: 200,
+                        color: Colors.blue,
+                      ),
+                      Container(
+                        width: 200,
+                        height: 200,
+                        color: Colors.orange,
+                      ),
+                      Container(
+                        width: 200,
+                        height: 200,
+                        color: Colors.blue,
+                      ),
+                      Container(
+                        width: 200,
+                        height: 200,
+                        color: Colors.red,
+                      ),
+                    
+                    ],
+                  ),
+                ),
+                SingleChildScrollView( scrollDirection : Axis.horizontal,
+                  child: Row(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Container(
+                        // margin: EdgeInsets.all(20),
+                        // padding: EdgeInsets.only(top: 30),
+                        child: Text("Aptech Farig Road"),
+                        width: 200,
+                        height: 200,
+                        decoration: BoxDecoration(
+                          color: Colors.red,
+                          // border: Border.all(
+                          //   color: Colors.black,
+                          //   width: 4,
+                          // ),
+                          // border: Border(bottom: BorderSide(width: 4, color: Colors.black)),
+                          // borderRadius: BorderRadiusDirectional.circular(20),
+                          // shape: BoxShape.circle,
+                          // borderRadius: BorderRadius.only(topRight: Radius.circular(15)),
+                          
+                        ),
+                      ),
+                      Container(
+                        width: 200,
+                        height: 200,
+                        color: Colors.blue,
+                      ),
+                      Container(
+                        width: 200,
+                        height: 200,
+                        color: Colors.green,
+                      ),
+                      Container(
+                        width: 200,
+                        height: 200,
+                        color: Colors.blue,
+                      ),
+                      Container(
+                        width: 200,
+                        height: 200,
+                        color: Colors.orange,
+                      ),
+                      Container(
+                        width: 200,
+                        height: 200,
+                        color: Colors.blue,
+                      ),
+                      Container(
+                        width: 200,
+                        height: 200,
+                        color: Colors.red,
+                      ),
+                    
+                    ],
+                  ),
+                )
               ],
-            )
-          ],
+            ),
+          ),
         ),
-      ),
+     
     );
   }
 }
