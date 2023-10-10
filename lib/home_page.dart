@@ -83,7 +83,7 @@ class HomePage extends StatelessWidget {
                     mainAxisSize: MainAxisSize.min,
                     children: [
                       Container(
-                        // margin: EdgeInsets.all(20),
+                        margin: EdgeInsets.all(20),
                         // padding: EdgeInsets.only(top: 30),
                         child: Text("Aptech Farig Road"),
                         width: 200,
@@ -102,31 +102,37 @@ class HomePage extends StatelessWidget {
                         ),
                       ),
                       Container(
+                        margin: EdgeInsets.all(20),
                         width: 200,
                         height: 200,
                         color: Colors.blue,
                       ),
                       Container(
+                        margin: EdgeInsets.all(20),
                         width: 200,
                         height: 200,
                         color: Colors.green,
                       ),
                       Container(
+                        margin: EdgeInsets.all(20),
                         width: 200,
                         height: 200,
                         color: Colors.blue,
                       ),
                       Container(
+                        margin: EdgeInsets.all(20),
                         width: 200,
                         height: 200,
                         color: Colors.orange,
                       ),
                       Container(
+                        margin: EdgeInsets.all(20),
                         width: 200,
                         height: 200,
                         color: Colors.blue,
                       ),
                       Container(
+                        margin: EdgeInsets.all(20),
                         width: 200,
                         height: 200,
                         color: Colors.red,
@@ -141,7 +147,7 @@ class HomePage extends StatelessWidget {
                     mainAxisSize: MainAxisSize.min,
                     children: [
                       Container(
-                        // margin: EdgeInsets.all(20),
+                        margin: EdgeInsets.all(20),
                         // padding: EdgeInsets.only(top: 30),
                         child: Text("Aptech Farig Road"),
                         width: 200,
@@ -160,31 +166,37 @@ class HomePage extends StatelessWidget {
                         ),
                       ),
                       Container(
+                        margin: EdgeInsets.all(20),
                         width: 200,
                         height: 200,
                         color: Colors.blue,
                       ),
                       Container(
+                        margin: EdgeInsets.all(20),
                         width: 200,
                         height: 200,
                         color: Colors.green,
                       ),
                       Container(
+                        margin: EdgeInsets.all(20),
                         width: 200,
                         height: 200,
                         color: Colors.blue,
                       ),
                       Container(
+                        margin: EdgeInsets.all(20),
                         width: 200,
                         height: 200,
                         color: Colors.orange,
                       ),
                       Container(
+                        margin: EdgeInsets.all(20),
                         width: 200,
                         height: 200,
                         color: Colors.blue,
                       ),
                       Container(
+                        margin: EdgeInsets.all(20),
                         width: 200,
                         height: 200,
                         color: Colors.red,
@@ -199,7 +211,7 @@ class HomePage extends StatelessWidget {
                     mainAxisSize: MainAxisSize.min,
                     children: [
                       Container(
-                        // margin: EdgeInsets.all(20),
+                        margin: EdgeInsets.all(20),
                         // padding: EdgeInsets.only(top: 30),
                         child: Text("Aptech Farig Road"),
                         width: 200,
@@ -218,31 +230,37 @@ class HomePage extends StatelessWidget {
                         ),
                       ),
                       Container(
+                        margin: EdgeInsets.all(20),
                         width: 200,
                         height: 200,
                         color: Colors.blue,
                       ),
                       Container(
+                        margin: EdgeInsets.all(20),
                         width: 200,
                         height: 200,
                         color: Colors.green,
                       ),
                       Container(
+                        margin: EdgeInsets.all(20),
                         width: 200,
                         height: 200,
                         color: Colors.blue,
                       ),
                       Container(
+                        margin: EdgeInsets.all(20),
                         width: 200,
                         height: 200,
                         color: Colors.orange,
                       ),
                       Container(
+                        margin: EdgeInsets.all(20),
                         width: 200,
                         height: 200,
                         color: Colors.blue,
                       ),
                       Container(
+                        margin: EdgeInsets.all(20),
                         width: 200,
                         height: 200,
                         color: Colors.red,
