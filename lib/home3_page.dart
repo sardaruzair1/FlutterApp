@@ -26,6 +26,7 @@ class _HomePageState extends State<HomePage> {
             },
             child: Icon(Icons.add)
           ),
+           SizedBox(height: 10),
           ElevatedButton(
             onPressed: (){
               setState(() {
@@ -36,6 +37,7 @@ class _HomePageState extends State<HomePage> {
             },
             child: Icon(Icons.remove)
           ),
+           SizedBox(height: 10),
           ElevatedButton(
             onPressed: (){
               setState(() {
