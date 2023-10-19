@@ -1,3 +1,4 @@
+import 'package:aptech/list.dart';
 import 'package:aptech/models/item_model.dart';
 import 'package:flutter/material.dart';
 
@@ -9,13 +10,7 @@ class AllView extends StatefulWidget {
 }
 
 class _AllViewState extends State<AllView> {
-  List<Item> item = [
-    Item(name: "burger",price: 370,qty: 10,isfav: true),
-    Item(name: "chips",price: 350,qty: 10,isfav: false),
-    Item(name: "biryani",price: 370,qty: 10,isfav: true),
-    Item(name: "chipotle",price: 550,qty: 10,isfav: true),
-
-  ];
+  
 
   @override
   Widget build(BuildContext context) {
@@ -27,7 +22,34 @@ class _AllViewState extends State<AllView> {
         trailing: Row(
           mainAxisSize: MainAxisSize.min,
           children: [
-            IconButton(onPressed: (){}, icon: Icon(Icons.add)),
+            
+            IconButton(
+              onPressed: (){
+              
+                bool isAdded = false;
+              for (var i = 0; i < order.length; i++) {
+                 if (order[index].qty < items.qty) {
+                if (order[i].id == items.id) {
+                  order[i].qty +=1;
+                  isAdded = true;
+                  break;
+                }
+                
+              }   }
+              
+                
+               
+              if (isAdded == false) {
+                
+                  order.add(Item(id: items.id,name: items.name, price: items.price, qty: 1),
+                  
+                  );
+                }
+           
+
+            },
+            
+             icon: Icon(Icons.add)),
             IconButton(onPressed: (){
               setState(() {
                 items.isfav=!(items.isfav);
