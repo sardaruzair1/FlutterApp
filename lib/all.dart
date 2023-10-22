@@ -28,12 +28,12 @@ class _AllViewState extends State<AllView> {
               
                 bool isAdded = false;
               for (var i = 0; i < order.length; i++) {
-                 if (order[index].qty < items.qty) {
                 if (order[i].id == items.id) {
+                 if (order[index].qty < items.qty) {
                   order[i].qty +=1;
+                }
                   isAdded = true;
                   break;
-                }
                 
               }   }
               
